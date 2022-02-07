@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.header, .splash {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+
+.header {
+    padding: 10px;
+}
+
+.header-image, .title, .title-signup-button {
+    color: #F9FAF8;
+}
+
+.header-image {
+    font-size: 24px;
+    flex: 0 1 33%;
+}
+
+.header-links, .title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 0 1 33%;
+}
+
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.splash {
+    height: 30%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title-signup-button {
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    /* font-size: 15px; */
+    border-radius: 0px;
+    border-style: none;
+    border-radius: 5px;
+    border-color: #3882F6;
+    background-color: #3882F6;
+}
+
+.website-info {
+    flex: 0 1 33%;
+    display: flex;
+    flex-direction: column;
+
+    /* width: 900px; */
+    /* width: 600px; */
+    word-wrap: normal;
+
+}
+
+.image-placeholder {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex: 0 1 33%;
+
+    width: 500px;
+    /* height: 300px; */
+    background-color: gray;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-title {
+    color: #1F2937; 
+    font-size: 36px;
+    /* font-weight: 900px; */
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info-illustration, .info-text {
+    /* flex: 0 0 10%; */
+    height: 150px;
+    width: 150px;
+}
+
+.info-illustrations, .info-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* max-width: 40%; */
+    text-align: center;
+}
+
+.info-illustration {
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-text-container {
+    color: #42474f;
+    padding: 3px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
