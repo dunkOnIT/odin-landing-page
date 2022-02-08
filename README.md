@@ -46,4 +46,24 @@ Think its going to be 2 items in the row, with first in a column layout.
 
 Having pretty major issues with this - have asked about it on the Odin discord, and will come back to it when I hear more/when I'm out of other things to do. For now, onto 3! 
 
-### 3. Information
+<br>
+
+## Conclusion
+
+So, I stopped doing the sections part-way through. I definitely learned a phenomenal amount doing this, though, including:
+* stronger understanding of flexbox, and particularly width/height stuff
+* merits of organising stacked components vertically vs horizontally
+* the fact that semantic HTML exists (VERY stoked to use this in the next project)
+* better to use outline instead of border, to avoid creating finnicky sizes of elements
+* better understanding of box model (specifically, margin doesn't inherit the CSS of the element creating it)
+* heuristics around when to use % units vs px units
+  * not to mention, the existence of a whole bunch of other units as well - still have a video I need to check out in this regard
+* how to surround elements with a border to much more easily visualise boundaries and how boxes are interacting
+
+I'd be remiss not to mention that a user in a coworking stream I frequent was kind enough to field a NUMBER of my questions, and has not only helped to resolve some difficult/confusing issues, but given me guidance around design and problem-solving approaches. 
+
+I think I spend a lot of the learning journey trying to figure out what "best practice" is, or mentally debating the merits of different approaches. So being able to get informed answers to my questions around that is REALLY helpful.
+
+Probably more as well, but that's good for now. Definitely coming out of the HTML/CSS fundamentals sections so far with the sense that I could actually build the layout of a website - which was probably 50% of what was scaring me about building a website in the first place.
+
+On to CSS now - I'm excited! 
